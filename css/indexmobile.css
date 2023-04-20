@@ -1,0 +1,808 @@
+@media screen and (max-width:414px){
+
+.fullscreen{
+    margin-bottom: 70px;
+}
+
+
+.fullscreen_img {
+    width: 100%;
+    /* height: 50%; */
+    overflow:auto;
+    background-size:auto;
+    background-position: right -200px top;
+
+}
+
+.fullscreen_img--title--kyoto {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.fullscreen_img--title h1:before {
+    display: none;
+}
+
+.fullscreen_img--title h1:after {
+    top: 65px;
+}
+
+.fullscreen_img--title h4 {
+    padding-left: 20px;
+    color: #141414;
+}
+
+
+.fullscreen_img--title p{
+    white-space:pre;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 20px;
+    color: #141414;
+    
+}
+
+
+.fullscreen_img01{
+    height: 900px;
+    background-position: right -713px top;
+}
+
+.fullscreen_img02{
+    height: 900px;
+    background-position: right -701px top;
+}
+
+.fullscreen_img03{
+    width: 100%;
+    height: 900px;
+}
+
+.fullscreen_img03::before{
+    height: 940px;
+    background-position: right -600px top;
+}
+
+
+
+/* ------------indexweather------------- */
+
+
+
+.indexweather_content li:after {
+    display: none;
+}
+
+.indexweather h3{
+    display: none;
+}
+
+.indexweather_content li {
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+.indexweather_content li.indexweather_content--mobiledate{
+    display: block;
+    flex-direction: column;
+    flex-basis: 100px;
+    height: 120px;
+    background-color: #760C0F;
+    
+}
+
+
+.indexweather_content--mobiledate h2 {
+    padding-left: 35px;
+}
+
+.indexweather_content--mobileweek{
+    letter-spacing: 3px;
+    margin: -0.4em 0 ;
+}
+
+.indexweather_content p {
+    width: 66px;
+}
+
+
+li.indexweather_content--uv {
+    flex-grow: 1;
+    margin-left: 29.5px;
+}
+
+li.indexweather_content--uv p{
+    width: 80px;
+    margin-left: 67px;
+
+}
+
+.indexweather_content--hot{
+    padding-left: 10px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+
+.indexweather_content--hot P{
+    margin-left: 15px;
+}
+
+.indexweather_content--cold P{
+    margin-left: 39px;
+}
+
+/* .indexweather_content--cold{
+    margin-left: 5px;
+    padding-left: 5px;
+} */
+
+.indexweather_content--rain{
+    padding-left: 44px;
+    margin-left: -15px;
+}
+
+.indexweather_content--rain p{
+    margin-left: 44px;
+}
+
+/* .indexweather_content--wind{
+    padding-left: 5px;
+} */
+
+
+.indexweather_content--wind p{
+    margin-left: 18px;
+}
+
+/* ---------------indexnews---------------- */
+
+.indexnews_title{
+    margin-bottom: 40px;
+}
+
+.indexnews_title:before{
+    bottom: -15px;
+}
+
+.indexnews_main--pic{
+    /* order: 0; */
+}
+
+.indexnews_main--pic div{
+    /* order: 0; */
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.indexnews_main--pic a{
+    /* order: 0; */
+    width: 180px;
+}
+
+
+.indexnews_main--text{
+    /* order: 1; */
+    width: 57.955%;
+}
+
+.indexnews_main--text .indexnews_main--text--btn {
+    margin: 0;
+    padding: 0 20px;
+    margin-left: 36.295px;
+}
+
+.indexnews_main--text .indexnews_main--text--btn div{
+    text-align: center;
+}
+
+.indexnews_main--text a {
+    height: auto;
+    width: 95%;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.indexnews_main--text a::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #760C0F;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.indexnews_main--text a.indexnews_main--text--news1{
+    height: 100px;
+}
+
+.indexnews_main--text a.indexnews_main--text--news2{
+    height: 100px;
+}
+
+.indexnews_main--text a.indexnews_main--text--news3{
+    height: 100px;
+}
+
+.indexnews_main--img{
+    display: inline-block;
+}
+
+
+.indexnews_main--img img{
+    height: auto;
+    width: 100%;
+}
+
+.indexnews_main--pic01 a img{
+    margin-left: -39px;
+}
+
+.indexnews_main--pic02 a img{
+    margin-left: -39px;
+}
+
+.indexnews_main--pic03 a img{
+    margin-left: -40px;
+}
+
+.indexnews:after {
+    display: none;
+}
+
+/* -----------------intro01---------------- */
+.intro{
+    margin-bottom: 100px;
+}
+
+.intro_text {
+    width: 100%;
+    padding: 0;
+    order: 1;
+}
+
+.intro_text p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.intro_img{
+    order:0;
+    margin-bottom: 25px;
+}
+
+.intro_img img{
+    width: 100%;
+
+}
+
+.intro_img::before {
+    height: 98.5%;
+}
+
+.intro_img::after {
+    height: 98.5%;
+}
+
+
+.intro_img.out::before {
+    height: 98.5%;
+}
+
+.intro_img.out::after {
+    height: 98.5%;
+}
+
+.intro:before {
+    right: 0;
+    border-right: 0px;
+    bottom: -20px;
+}
+
+.intro:after {
+    width: 1rem;
+    height: 1rem;
+    right: 0;
+    bottom: -20px;
+}
+
+
+
+/* ---------------intro02----------------- */
+.intro2{
+    margin-bottom: 100px;
+}
+
+.intro2_text {
+    width: 100%;
+    padding: 0 ;
+}
+
+.intro2_text p {
+    margin-top: 25px;
+}
+
+.intro2_text h3::before {
+    width: 2.5125rem;
+    height: 2.5125rem;
+    top: 3px;
+}
+
+.intro2_text h3:after {
+    height: 3.5rem;
+    top: -4px;
+}
+
+.intro2_photo {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+.intro2_photo--img {
+    height: 465.176px
+}
+
+.intro2_photo--img li {
+    display: inline-block;
+    width: 49.6%;
+}
+.intro2_photo--img img {
+    display: inline-block;
+    width: 100%;
+}
+
+li.intro2_photo--img--01 {
+    left: -68px;
+    width: 56.5%;
+}
+
+li.intro2_photo--img--02 {
+    width: 20%;
+    left: 158px;
+}
+
+li.intro2_photo--img--03 {
+    left: -46px;
+    width: 55%;
+}
+
+
+.intro2_photo--img--04 {
+    right: -58px;
+}
+
+li.intro2_photo--img--05 {
+    top: 132px;
+    right: -29px;
+    width: 62%;
+}
+
+li.intro2_photo--img--06 {
+    width: 58%;
+    right: -19px;
+}
+
+
+.intro2_photo--line--colorblock {
+    height: 237px;
+    outline: 15px solid #141414;
+    top: 131px;
+    left: 87px;
+}
+
+.intro2_photo--line--tradition {
+    left: 110px;
+    bottom: 0px;
+}
+
+.intro2_photo--line h2 {
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+
+.intro2_photo--line--modern {
+    top: 79px;
+    left: 215px;
+}
+
+.intro2_photo--line--001 {
+    height: 2px;
+    width: 300px;
+    top: 123px;
+    left: 348px;
+}
+
+.intro2_photo--line--002 {
+    height: 2px;
+    width: 150px;
+    top: 327px;
+    left: 380px;
+    transition: all 0.5s 0.3s ease-in-out;
+}
+
+.intro2_photo--line--003 {
+    height: 2px;
+    width: 70px;
+    left: -115px;
+    bottom: 168px;
+}
+
+.intro2_photo--line--004 {
+    height: 2px;
+    width: 0px;
+    right: 126px;
+    bottom: 89px;
+}
+
+.intro2_photo--line--005 {
+    height: 0px;
+    width: 2px;
+    top: 116px;
+    left: 80px;
+}
+
+.intro2_photo--line--006 {
+    height: 140px;
+    width: 2px;
+    top: -100px;
+    left: 149px;
+}
+
+.intro2_photo--line--007 {
+    height: 352px;
+    width: 2px;
+    top: -250px;
+    right: 132px;
+}
+
+.intro2_photo--line--008 {
+    display: block;
+    height: 100px;
+    width: 2px;
+    background-color: #760C0F;
+    position: absolute;
+    bottom: -88px;
+    right: 203px;
+    opacity: 0;
+    transition: all 0.5s 0.5s ease-in-out;
+}
+
+.intro2_photo--line--tradition.in {
+    left: 110px;
+    bottom: 64px;
+}
+
+.intro2_photo--line--modern.in {
+    top: 199px;
+    left: 215px;
+}
+
+.intro2_photo--line--001.in {
+    height: 2px;
+    width: 300px;
+    top: 123px;
+    left: 73px;
+}
+
+.intro2_photo--line--002.in {
+    height: 2px;
+    width: 150px;
+    top: 327px;
+    left: 232px;
+    transition: all 0.5s 0.3s ease-in-out;
+}
+
+.intro2_photo--line--003.in {
+    height: 2px;
+    width: 70px;
+    left: 20px;
+    bottom: 168px;
+}
+
+.intro2_photo--line--004.in {
+    height: 2px;
+    width: 173px;
+    right: 126px;
+    bottom: 89px;
+}
+
+.intro2_photo--line--005.in {
+    height: 267px;
+    width: 2px;
+    top: 116px;
+    left: 80px;
+}
+
+.intro2_photo--line--006.in {
+    height: 140px;
+    width: 2px;
+    top: 0px;
+    left: 149px;
+}
+
+.intro2_photo--line--007.in {
+    height: 352px;
+    width: 2px;
+    top: 31px;
+    right: 132px;
+}
+
+.intro2_photo--line--008.in {
+    bottom: 5px;
+    right: 203px;
+    opacity: 1;
+    transition: all 0.5s 0.5s ease-in-out;
+}
+
+/* -----------------pagelink------------------ */
+
+.pagelink_img {
+    flex-wrap: wrap;
+    height: calc(863px*1);
+}
+
+.pagelink_img li {
+    width: 100%;
+    margin-bottom: 20px;
+    /* border: 0.1px solid #FFF; */
+}
+
+.pagelink_img li a {
+    font-size: 1.77rem;
+    font-weight: 400;
+}
+
+.pagelink_img--01{
+    scale: 0.8;
+    opacity: 0;
+    transition: all 0.5s 0.6s ease-in-out;
+}
+
+.pagelink_img--01.show{
+    scale: 1;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.pagelink_img--01--text {
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: 1px 1px 5px #141414;
+}
+
+.pagelink_img--01--text:before {
+    display: inline-block;
+    z-index: -1;
+    width: 38%;
+}
+
+.pagelink_img--01:hover .pagelink_img--01--text {
+    transform: translate(-50%, -50%);
+
+}
+.pagelink_img--01--bg {
+    z-index: 1;
+}
+
+.pagelink_img--02{
+    scale: 0.8;
+    opacity: 0;
+    transition: all 0.5s 0.4s ease-in-out;
+}
+
+.pagelink_img--02.show{
+    scale: 1;
+    opacity: 1;
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+
+.pagelink_img--02--text {
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: 1px 1px 5px #141414;
+}
+
+.pagelink_img--02--text:before {
+    display: inline-block;
+    z-index: -1;
+    width: 38%;
+}
+
+.pagelink_img--02:hover .pagelink_img--02--text {
+    transform: translate(-50%, -50%);
+
+}
+
+.pagelink_img--02--bg {
+    z-index: 1;
+}
+
+.pagelink_img--03{
+    scale: 0.8;
+    opacity: 0;
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+.pagelink_img--03.show{
+    scale: 1;
+    opacity: 1;
+    transition: all 0.5s 0.4s ease-in-out;
+}
+
+.pagelink_img--03--text {
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: 1px 1px 5px #141414;
+}
+
+.pagelink_img--03--text:before {
+    display: inline-block;
+    z-index: -1;
+    width: 38%;
+}
+
+.pagelink_img--03:hover .pagelink_img--03--text {
+    transform: translate(-50%, -50%);
+
+}
+
+
+.pagelink_img--03--bg {
+    z-index: 1;
+}
+
+.pagelink_img--04{
+    scale: 0.8;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.pagelink_img--04.show{
+    scale: 1;
+    opacity: 1;
+    transition: all 0.5s 0.6s ease-in-out;
+}
+
+.pagelink_img--04--text {
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: 1px 1px 5px #141414;
+}
+
+.pagelink_img--04--text:before {
+    display: inline-block;
+    z-index: -1;
+    width: 30%;
+}
+
+.pagelink_img--04:hover .pagelink_img--04--text {
+    transform: translate(-50%, -50%);
+
+}
+
+.pagelink_img--04--bg {
+    z-index: 1;
+}
+
+}
+
+
+/* ------------------------------------ */
+
+@media screen and (max-width:375px){
+
+.fullscreen{
+    margin-bottom: auto;
+}
+
+.fullscreen_img01{
+    height: 1010px;
+    background-position: right -847px top;
+}
+
+.fullscreen_img02{
+    height: 1010px;
+    background-position: right -852px top;
+}
+
+.fullscreen_img03{
+    height: 1010px;
+    background-size: cover;
+    margin: auto;
+
+}
+
+.fullscreen_img--title--kyoto{
+    padding-top: 102px;
+    padding-left: 15px;
+}
+
+.fullscreen_img--title h4{
+    padding-left: 15px;
+}
+
+.fullscreen_img--title p{
+    padding-left: 15px;
+}
+
+
+/*    ------------------------------------  */
+
+.indexweather_content--hot{
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+.indexweather_content--hot P{
+    margin-left: 12px;
+}
+
+.indexweather_content--cold p{ 
+    margin-left: 23px;
+}
+
+.indexweather_content--rain{
+    padding-left: 0px;
+    margin-left: 19px;
+}
+
+.indexweather_content--rain p{
+    margin-left: 30px;
+}
+
+.indexweather_content--wind p{
+    margin-left: 0px;
+}
+
+li.indexweather_content--uv{
+    margin-left: 18.5px;
+
+}
+
+li.indexweather_content--uv p{
+    margin-left: 56px;
+}
+
+.indexweather{
+    width: 89%;
+}
+
+.indexweather_content h2{
+    font-size: 2.33rem;
+}
+
+.indexweather_content--mobiledate{
+    padding-top: 6px;
+    padding-left: 2px;
+}
+
+/* ------------------------------ */
+
+.pagelink_img--01--text:before {
+    width: 42%;
+}
+
+.pagelink_img--02--text:before {
+    width: 42%;
+}
+
+.pagelink_img--03--text:before {
+    width: 42%;
+}
+.pagelink_img--04--text:before {
+    width: 31%;
+}
+
+
+
+}

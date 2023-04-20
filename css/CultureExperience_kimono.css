@@ -1,0 +1,778 @@
+@import url('styleguide.css');
+
+
+
+.kimono_label {
+    display: flex;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.kimono_label a {
+    font-size: 0.77rem;
+    color: #FFF;
+    height: 18px;
+    line-height: 18px;
+}
+
+/* -----------------------kimono_title------------------- */
+
+.kimono_title {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+.kimono_title h4 {
+    margin-left: 30px;
+    letter-spacing: 10px;
+
+    position: relative;
+
+}
+
+.kimono_title h4:before {
+    content: '';
+    width: 2.5125rem;
+    height: 2.5125rem;
+    background-color: #760C0F;
+
+    position: absolute;
+    top: 0;
+    left: -22px;
+    z-index: -1;
+}
+
+.kimono_title h4:after {
+    content: '';
+    width: 20.5rem;
+    height: 3px;
+    background-color: #760C0F;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* -----------------------mainkimono------------------ */
+
+.mainkimono {
+    margin-bottom: 50px;
+}
+
+.mainkimono img {
+    margin-bottom: 40px;
+}
+
+.mainkimono h4 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.mainkimono p {
+    letter-spacing: 2px;
+    position:relative;
+}
+
+.mainkimono_plan p{
+    margin-left: 18px;
+}
+
+.mainkimono_plan p::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    top: 13px;
+    left: -13px;
+}
+
+.mainkimono_plan01cancel::before{
+    display: none;
+}
+
+.mainkimono_plan02cancel::before{
+    display: none;
+}
+
+.mainkimono span {
+    font-weight: 500;
+    color: #FFF;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.mainkimono_journey {
+    margin-bottom: 30px;
+}
+
+.mainkimono_plan01 {
+    margin-bottom: 30px;
+}
+
+.mainkimono_plan01--title {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mainkimono_plan01--title span {
+    margin-right: 25px;
+}
+
+.mainkimono_plan01--title P {
+    background-color: #760C0F;
+    padding: 0 10px;
+}
+
+.mainkimono_plan01 p {
+    margin-bottom: 8px;
+}
+
+.mainkimono_plan02--title {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mainkimono_plan02--title span {
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    margin-right: 25px;
+}
+
+.mainkimono_plan02--title P {
+    background-color: #760C0F;
+    padding: 0 10px;
+}
+
+.mainkimono_plan02 p {
+    margin-bottom: 8px;
+}
+
+
+/* -----------------------kimonoinput-------------------- */
+
+.kimonoinput {
+    background-color: #ffffff13;
+    margin-bottom: 50px;
+
+}
+
+.kimonoinput_top{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.kimonoinput_top svg>path,rect{
+    fill: #FFF;
+}
+
+.toparrow{
+    margin-right: 20px;
+    transform: rotate(0deg);
+    transition: all .5s ease-in-out;
+    
+}
+
+
+
+.kimonoinput_bottom{
+    padding: 0px 20px;
+    /* transition: all .5s ease-in-out; */
+    /* display: none; */
+    
+}
+
+.kimonoinput h4 {
+    font-weight: 500;
+    display: inline-block;
+    /* padding: 5px 10px; */
+    /* background-color: #760C0F; */
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    
+
+}
+
+.kimonoinput a {
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #760C0F;
+
+}
+
+.kimonoinput_reserve {
+    text-align: right;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.kimonoinput_reserve a{
+    padding: 5px 45px;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.kimonoinput_reserve a:hover{
+    font-weight: 700;
+    scale: 1.05;
+
+
+}
+
+/* -------------------------------------------------------- */
+
+.kimonoinput_selection {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+
+
+/* ---------------kimonoinput_selection--date-------------- */
+
+.kimonoinput_selection--date {
+    display: inline-block;
+    width: 40%;
+    /* margin-right: -10px; */
+
+}
+
+.kimonoinput_selection--right{
+    width: 58%;
+    margin-left: 20px;
+}
+
+/*
+ * Project: SimpleCalendar
+ * Description: Styles for the light-square theme
+ *
+ * History:
+ *	Kendall Roth	Oct-08-2015:	Documentation added
+*/
+
+.calendar-container {
+    /* max-width: 400px; */
+    margin: 0;
+    font-family: "Calibri Light";
+    border: 1px solid rgb(125, 0, 0);
+    overflow: hidden;
+
+    /* Disable user selection */
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.calendar-header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(125, 0, 0);
+}
+
+.calendar-current-month-container {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calendar-current-month-container:hover {
+    background-color: rgb(100, 0, 0);
+}
+
+.calendar-previous-month,
+.calendar-next-month {
+    position: absolute;
+    cursor: pointer;
+}
+
+.calendar-previous-month:hover,
+.calendar-next-month:hover {
+    background-color: rgb(115, 0, 0);
+}
+
+.calendar-previous-month svg,
+.calendar-next-month svg {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.calendar-previous-month {
+    left: 0;
+    border-right: 1px solid rgba(100, 0, 0, 0.5);
+}
+
+.calendar-next-month {
+    right: 0;
+    border-left: 1px solid rgba(100, 0, 0, 0.5);
+}
+
+.calendar-days table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.calendar-days thead tr {
+    color: white;
+    background-color: rgb(100, 0, 0);
+}
+
+.calendar-days thead th {
+    padding: 8px 0;
+}
+
+.calendar-days th {
+    cursor: default;
+}
+
+.calendar-days td {
+    width: 14.2857%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid rgba(150, 0, 0, 0.2);
+}
+
+/**************************************************************************************************/
+/* Utility Classes for background-fills and hover effects */
+
+.calendar-days .current-month {
+    color: rgb(75, 75, 75);
+    background-color: rgb(250, 250, 250);
+}
+
+.calendar-days .not-current-month {
+    color: rgb(150, 150, 150);
+    background-color: rgb(235, 235, 235);
+}
+
+.calendar-days .today {
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(174, 39, 39);
+    overflow: auto;
+}
+
+/* .calendar-days .today-other-month {
+    color: rgb(0, 150, 200);
+    border: 2px solid rgba(0, 150, 200, 0.5);
+} */
+
+.calendar-days td.current-month:hover:not(.today) {
+    background-color: rgb(254, 119, 119);
+}
+
+.calendar-days td.not-current-month:hover {
+    background-color: rgba(150, 30, 30, 0.434);
+}
+
+/* --------------kimonoinput_selection--time---------------------- */
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+label span:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+input[type="radio"]:checked+span::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #760C0F;
+    background-clip: content-box;
+    box-sizing: border-box;
+}
+
+
+.kimonoinput_selection--time {
+    width: 100% ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 0;
+}
+
+.kimonoinput_selection--space {
+    width: 90px;
+}
+
+.kimonoinput_selection--time span {
+    font-size: 1rem;
+    color: #FFF;
+    margin-right: 10px;
+    position: relative;
+}
+
+/*---------------------clothingoption-----------------------*/
+
+.select-box {
+    position: relative;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Leelawadee UI, 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #141414;
+}
+
+/* @media (min-width: 768px) {
+    .select-box {
+    width: 70%;
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .select-box {
+    width: 50%;
+    }
+    }
+    
+    @media (min-width: 1200px) {
+    .select-box {
+    width: 25%;
+    }
+    } */
+
+.select-box__current {
+    position: relative;
+    box-shadow: 0 15px 30px -10px transparentize(#000, 0.9);
+    cursor: pointer;
+    outline: none;
+}
+
+.select-box__current:focus+.select-box__list {
+    opacity: 1;
+    animation-name: none;
+}
+
+.select-box__current:focus .select-box__icon {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.select-box__current:focus .select-box__option {
+    cursor: pointer;
+}
+
+.select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    opacity: 0.3;
+    transition: 0.2s ease;
+}
+
+.select-box__value {
+    display: flex;
+}
+
+.select-box__input {
+    display: none;
+}
+
+.select-box__input:checked+.select-box__input-text {
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #760C0F;
+    display: block;
+}
+
+.select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.select-box__list {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    animation-name: HideList;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: step-start;
+    box-shadow: 0 15px 30px -10px transparentize(#000, 0.9);
+    z-index: 5;
+}
+
+.select-box__option {
+    display: block;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.select-box__option:hover,
+.select-box__option:focus {
+    color: #FFF;
+    background-color: #760C0F;
+}
+
+@keyframes HideList {
+    from {
+        transform: scaleY(1);
+    }
+
+    to {
+        transform: scaleY(0);
+    }
+}
+/* ------------------60分鐘攝影checkbox--------------*/
+
+input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+label span:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked+span::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #760C0F;
+    background-clip: content-box;
+    box-sizing: border-box;
+} 
+
+/* --------kimonoinput_selection--clothingoption------- */
+
+.kimonoinput_selection--box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.kimonoinput_selection--box:hover {
+    z-index: 5;
+}
+
+.kimonoinput_selection--clothingoption {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.kimonoinput_selection--clothingoption span {
+    color: #FFF;
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+/* -------------imonoinput_selection--hairoption--------------- */
+
+.kimonoinput_selection--hairoption {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* ----------- kimonoinput_selection--countoption--------*/
+
+.kimonoinput_selection--countoption {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.kimonoinput_selection--countoption div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.kimonoinput_selection--countoption button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000000;
+    color: #FFF;
+    border: 0;
+    font-size: 2.66rem;
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    
+}
+
+.minus{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+
+.plus{
+    cursor: pointer;
+}
+
+.kimonoinput_selection--countoption button:hover {
+    color: #760C0F;
+}
+
+.kimonoinput_selection--countoption div p {
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-size: 2.66rem;
+    transform: translate(0, -5px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ----------kimonoinput_selection--contact---- */
+
+.kimonoinput_selection--contact {
+    display: flex;
+    align-items: end;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+}
+
+.kimonoinput_selection--contact h4 {
+    padding: 0;
+    background-color: #ffffff00;
+    margin-bottom: 20px;
+}
+
+.kimonoinput_selection--contact p {
+    margin-bottom: 25px;
+}
+
+
+.kimonoinput_selection--contactset {
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px;
+    border: 0px;
+    margin-left: 30px;
+}
+
+.kimonoinput_selection--contactset2 {
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px;
+    border: 0px;
+    margin-left: 26px;
+}
+
+
+.kimonoinput_selection--contactset:focus {
+    outline: none;
+}
+
+.kimonoinput_selection--contactset2:focus {
+    outline: none;
+}
+
+.kimonoinput_selection--contact--price{
+
+    margin-left: auto;
+}
+
+.kimonoinput_selection--contact--price p {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.kimonoinput_selection--contact--price h4 {
+    display: inline-block;
+    font-weight: 500;
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    margin-left: 10px;
+}
+
+.kimonoinput_selection--contact--price span {
+    display: inline-block;
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-size: 2.88rem;
+    color: #FFF;
+    margin-left: 5px;
+}
+
+/* ------------------------------ */
+
+::placeholder {
+    color: rgb(126, 126, 126);
+}
+
+/* ----------------------------------- */
+.kimonopic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kimonopic section{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,227 @@
+@import url('styleguide.css');
+
+.fullscreenCul {
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.fullscreenCul_img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/CultureExperience/fullscreenCul_bg01.png);
+    background-position: center;
+    background-size: cover;
+    /* width: 100vw; */
+    /* position: relative; */
+    z-index: -2;
+
+}
+
+.fullscreenCul_img--title {
+    width: 30%;
+
+    text-align:center;
+    padding-top: 35%;
+    margin-right: 20%;
+
+}
+
+.fullscreenCul_img--title h1 {
+    color: #ffffff;
+    position: relative;
+}
+
+.fullscreenCul_img--title h1:before{
+    position: absolute;
+    content: '';
+    right: 150px;
+    bottom: -93px;
+    width: 112px;
+    height: 185px;
+
+    background: #760C0F;
+    mix-blend-mode: soft-light;
+
+}
+
+.fullscreenCul_img--title h1:after{
+    position: absolute;
+    content: '';
+    left: 60px;
+    bottom: 0px;
+    width: 80%;
+    height: 2px;
+
+    background: #ffffff;
+
+}
+
+
+.fullscreenCul_img--title h2 {
+    color: #ffffff;
+    
+}
+
+/* -------------------------Cullabel------------------------- */
+
+.Cullabel{
+    display: flex;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+
+.Cullabel a{
+    font-size: 0.77rem;
+    color: #FFF;
+    height: 18px;
+    line-height: 18px;
+}
+
+/* ---------------------------Cultitle---------------------- */
+
+.Cultitle{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 55px;
+    
+}
+
+.Cultitle h4{
+    margin-left: 30px;
+    letter-spacing: 10px;
+
+    position: relative;
+
+}
+
+.Cultitle h4:before{
+    content: '';
+    width: 2.5125rem;
+    height: 2.5125rem;
+    background-color: #760C0F;
+
+    position: absolute;
+    top: 0;
+    left: -22px;
+    z-index: -1;
+}
+
+.Cultitle h4:after {
+    content: '';
+    width: 20rem;
+    height: 3px;
+    background-color: #760C0F;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* -------------------------Culmain-------------------------- */
+
+.Culmain{
+    padding: 0 100px;
+    letter-spacing: 1px;
+}
+
+.Culmain section{
+    display: flex;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+    
+}
+
+.Culmain div{
+    width: 30%;
+    height: 400px;
+    padding-right: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.Culmain img{
+    height: 100%;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    z-index: 5;
+}
+
+.Culmain span{
+    display: block;
+    border-bottom: 2px solid #760C0F;
+    padding-bottom: 3px;
+}
+
+
+.Culmain h4{
+    font-weight: 300;
+}
+
+.Culmain p{
+    padding-top: 8px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.Culmain a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: #760C0F;
+    font-size: 1rem;
+    color: #fff;
+
+    text-align: center;
+    line-height: 45px;
+
+    
+}
+.Culmain_btn{
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translate(0,30px);
+    margin-top: auto;
+}
+
+span.Culmain_mobilebtn{
+    display: none;
+    opacity: 0;
+    transform: translate(0,30px);
+    margin-top: auto;
+}
+
+
+
+@media (min-width:768px){
+
+.Culmain section:hover{
+    transform: scale(1.06);
+    margin-bottom: 60px;
+}
+
+.Culmain section:hover .Culmain_btn{
+    opacity: 100%;
+    transform: translate(0,0);
+    border-bottom: none;
+    padding-bottom: 0px;
+
+}
+
+.Culmain section:hover p{
+    opacity: 100%;
+
+}
+
+.Culmain section:hover img{
+    filter: grayscale(0);
+
+}
+
+.Culmain a:hover{
+    font-weight: 700;
+}
+
+}

@@ -1,0 +1,170 @@
+@media screen and (max-width:414px){
+    .fullscreenCul_img {
+        background-position: top left -389px;
+    }
+
+    .fullscreenCul_img--title {
+        width: 100%;
+        padding-top: 125%;
+        margin: 0  ;
+    }
+
+    .fullscreenCul_img--title h1 {
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .fullscreenCul_img--title h1:after {
+        left: 22px;
+        width: 90%;
+    }
+
+    .fullscreenCul_img--title h1:before {
+        right: 32px;
+    }
+
+    .fullscreenCul {
+        margin-bottom: 70px;
+    }
+
+    .fullscreenCul_img--title h2{
+        font-size: 2.33rem;
+    }
+
+/* ------------------------------------ */
+
+    .Cultitle {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .Cultitle h3{
+        margin-bottom: 10px;
+    }
+
+    .Cultitle h4 {
+        margin-left: 10px;
+    }
+
+    .Cultitle h4:before {
+        left: -10px;
+    }
+
+    .Cultitle h4:after {
+        left: 15px;
+    }
+
+/* ------------------------------------- */
+
+.Culmain {
+    padding: 0px;
+}
+
+.Culmain section {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.Culmain div {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.Culmain img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Culmain h4 {
+    position: relative;
+}
+
+.Culmain h4::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Culmain h4::after {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Culmain h4.ck::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.Culmain h4.ck::after {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    transform: rotate(-270deg);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.Culmain_btn a{
+    display: none;
+}
+
+.Culmain p{
+    opacity:1;
+    transition: none;
+}
+
+.Culmain section:hover{
+    transform: scale(1);
+    margin-bottom: 30px;
+}
+
+.Culmain img.ck{
+    filter: grayscale(0);
+}
+
+span.Culmain_mobilebtn{
+    opacity: 1;
+    display: block;
+    border-bottom: 0px;
+    transform: translate(0,10px);
+    
+}
+
+
+
+}
+
+@media screen and (max-width:375px){
+    .Cultitle h4{
+        letter-spacing:7px
+    }
+
+    .Cultitle h4:after{
+        width: 18rem;
+    }
+}

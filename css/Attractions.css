@@ -1,0 +1,724 @@
+@import url('styleguide.css');
+
+.fullscreenAtt {
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.fullscreenAtt_img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/Attractions/fullscreenAtt_bg01.png);
+    background-position: center;
+    background-size: cover;
+    /* width: 100vw; */
+    /* position: relative; */
+    z-index: -2;
+
+}
+
+.fullscreenAtt_img--title {
+    width: 399px;
+    height: 100vh;
+    position: relative;
+    margin-right: 345px;
+    margin-left: auto;
+
+
+
+}
+
+.fullscreenAtt_img--title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(118, 12, 15, 0.8);
+    mix-blend-mode: multiply;
+    z-index: 0;
+}
+
+.fullscreenAtt_img--title h1 {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 350px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.fullscreenAtt_img--title h1::before{
+    content: '';
+    width: 95%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5px;
+}
+
+.fullscreenAtt_img--title h2 {
+    color: #ffffff;
+    padding-left: 135px;
+    position: relative;
+    z-index: 1;
+}
+
+/* .fullscreenAtt_img::before{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    right: 347px;
+    top: 0px;
+    
+    background: rgba(118, 12, 15, 0.8);
+    mix-blend-mode: multiply;
+    z-index: -1;
+
+} */
+
+
+/* .fullscreenAtt_img--title {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 250px;
+    
+} */
+
+/* .fullscreenAtt_img--title h1 {
+    color: #ffffff;
+    margin-left: 650px;
+    margin-top: 100px;
+    position: relative;
+    
+} */
+
+/* .fullscreenAtt_img--title h1::before{
+    content: '';
+    width: 180%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+} */
+
+/* .fullscreenAtt_img--title h1::after{
+        content: '';
+        position: absolute;
+        width: 399px;
+        height: 870px;
+        left: -12px;
+        top: -248px;
+    
+        background: rgba(118, 12, 15, 0.8);
+        mix-blend-mode: multiply;
+        z-index: -1;
+}         */
+
+
+
+/* .fullscreenAtt_img--title h2 {
+    color: #ffffff;
+    margin-left: 940px;
+    margin-top: 0px;
+
+
+} */
+
+/* -----------------------mainAtt_label--------------------- */
+
+.Attlabel {
+    display: flex;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+
+.Attlabel a {
+    font-size: 0.77rem;
+    color: #FFF;
+    height: 18px;
+    line-height: 18px;
+}
+
+
+/* -------------------------Atttitle------------------------ */
+
+.Atttitle {
+    position: relative;
+    float: left;
+
+}
+
+.Atttitle:before {
+    content: '';
+    width: 2.5125rem;
+    height: 2.5125rem;
+    background-color: #760C0F;
+
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    z-index: -1;
+}
+
+.Atttitle:after {
+    content: '';
+    width: 3px;
+    height: 120%;
+    background-color: #760C0F;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.Atttitle h3 {
+    width: 10px;
+}
+
+
+.Atttitle h4 {
+    letter-spacing: 10px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 160px;
+    left: -47px;
+
+}
+
+/* -----------------------mainAtt------------------------- */
+
+.mainAtt {
+    padding: 0 100px;
+    
+}
+
+.mainAtt a {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 35px;
+    /* font-size: 1.33rem; */
+    /* text-align: center; */
+    color: #FFF;
+    padding-left: 40px;
+    padding-top: 5px;
+    
+}
+
+.mainAtt_textarea {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+    position: relative;
+    /* margin-bottom: 10px; */
+}
+
+
+div.mainAtt_textareamobile{
+    display: none;
+}
+
+.mainAtt_mobilearrow{
+    display: none;
+}
+
+.mainAtt_textarea::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #760C0F;
+
+    position: absolute;
+    top: 43px;
+    left: 0px;
+}
+
+.mainAtt_textarea::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #760C0F;
+
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+
+.mainAtt_textarea li {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.mainAtt_textarea li::before{
+    content: '';
+    width: 100%;
+    height: 45px;
+    background-color: #760C0F;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+.mainAtt_textarea li::after{
+    content: '';
+    width: 100px;
+    height: 60px;
+    background-color: #191919;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    right: -25px;
+    transform: rotate(30deg);
+    opacity: 0;
+}
+
+.mainAtt_textarea .on::before{
+    content: '';
+    width: 100%;
+    height: 45px;
+    background-color: #760C0F;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+.mainAtt_textarea .on::after{
+    content: '';
+    width: 100px;
+    height: 60px;
+    background-color: #191919;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    right: -25px;
+    transform: rotate(30deg);
+    opacity: 1;
+}
+
+.mainAtt_textarea li:hover:before{
+    opacity: 100%;
+}
+.mainAtt_textarea li:hover:after{
+    opacity: 100%;
+}
+.mainAtt__textarea li:hover a{
+    font-weight: 500;
+}
+/* -------------------------mainAtt_weathercard----------------------- */
+.mainAtt_weathercard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mainAtt_weathercard li{
+    width: 138px;
+    height: 215px;
+    perspective: 500px;
+    
+    
+}
+
+.mainAtt_weathercardbg{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+    backface-visibility: hidden;
+    
+}
+
+.mainAtt_weathercard span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid #FFF;
+    padding-top: 10px;
+}
+
+.mainAtt_weathercard p{
+    text-align: center;
+}
+
+.mainAtt_weathercard img{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.mainAtt_weathercard--end span{
+    line-height: 28px;
+    margin-bottom: 5px;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.mainAtt_weathercard--end span p{
+    text-align:center;
+    width: 50px;
+
+}
+
+.mainAtt_weathercard--end span:first-child{
+    padding: 0;
+    border: 0;
+}
+
+.mainAtt_weathercard--end span p:first-child{
+    font-family: Leelawadee UIB, 'Noto Sans TC', sans-serif;
+    font-size: 1.33rem; 
+}
+
+.mainAtt_weathercard--end span p.mainAtt_weathercard--endUV{
+    text-align: right;
+    width: 60px;
+    padding-right: 5px;
+    font-size: .8rem;
+}
+
+.mainAtt_weathercard--front{
+    /* opacity: 100%;
+    transition: all 0.5s ease-in-out;
+    filter: blur(0px);
+    perspective: 500 ; */
+    background-color: #760C0F;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+
+}
+
+.mainAtt_weathercard--end{
+    /* opacity: 0; */
+    background-color: #760C0F;
+    /* transition: all 0.5s ease-in-out; */
+    z-index: 1;
+    /* filter: blur(20px);
+    transform: rotate3d(0,1,0,-90deg);
+    perspective: 500 ; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    padding: 10px;
+}
+
+.mainAtt_weathercard--end p.mainAtt_weathercard--end--p{
+    font-size: .8rem;
+    width: 40px;
+}
+
+@media (min-width:768px){
+.mainAtt_weathercard li:hover .mainAtt_weathercardbg,
+.mainAtt_weathercard li:focus .mainAtt_weathercardbg{
+    transform: rotateY(180deg);
+}
+}
+
+/* .mainAtt_weathercard li:hover .mainAtt_weathercard--front{
+    opacity: 0;
+    filter: blur(20px);
+    transform: rotate3d(0,1,0,90deg);
+    
+    
+}
+
+.mainAtt_weathercard li:hover .mainAtt_weathercard--end{
+    opacity: 100%;
+    filter: blur(0px);
+    transform: rotate3d(0,0,0,0);
+
+} */
+
+/*--------------------------picAtt--------------------------*/
+
+.picAtt{
+    padding: 0 100px;
+    /* margin-bottom: 30px; */
+}
+
+.picAtt ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.picAtt li{
+    margin-bottom: 20px;
+    height:100%;
+    position: relative;
+}
+
+.picAtt img{
+    display: block;
+    
+}
+
+.picAtt a::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    opacity: 0;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+.picAtt a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+.picAtt li:hover:before{
+    opacity: 100%;
+}
+
+.picAtt li:hover a::before{
+    opacity: 100%;
+}
+
+.picAtt li:hover a::after{
+    transform: scale(0.8);
+    opacity: 100%;
+}
+
+.picAtt_01--1::before{
+    content: '清水寺';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 269px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--2::before{
+    content: '高元寺';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 269px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--3::before{
+    content: '八坂庚申堂';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 259px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--4::before{
+    content: '二年坂';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 269px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--5::before{
+    content: '三年坂';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 269px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--6::before{
+    content: '八坂通';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 269px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_01--7::before{
+    content: '石塀小路';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 264px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+ul.pageAtt{
+    display: none;
+}
+
+ul.on{
+    display: flex;
+}
+
+
+.picAtt_02--1::before{
+    content: '八坂神社';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 264px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_02--2::before{
+    content: '花見小路';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 264px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_02--3::before{
+    content: '祗園白川';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 264px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.picAtt_02--4::before{
+    content: '圓山公園';
+    color: #FFF;
+    font-size: 1.33rem;
+    font-weight:500;
+    letter-spacing: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 264px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+
+    transition: all 0.5s ease-in-out;
+}

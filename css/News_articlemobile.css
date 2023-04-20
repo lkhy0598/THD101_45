@@ -1,0 +1,124 @@
+@media screen and (max-width:414px){
+
+.mainarticle {
+    margin-top: 80px;
+}
+
+.mainarticle_title {
+    margin-bottom: 30px;
+}
+
+.mainarticle_theme {
+    padding: 0px;
+}
+
+.mainarticle_theme h3 {
+    margin-bottom: 40px;
+}
+
+.mainarticle_theme h3:after {
+    width: 100%;
+    left: 0px;
+    bottom:-14px
+}
+
+.mainarticle_theme P{
+    margin-bottom: 20px;
+}
+
+.mainarticle_theme img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainarticle_theme img + img {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.mainarticle_theme :nth-child(8) {
+    margin-bottom: 40px;
+}
+
+.mainarticle_information {
+    margin-bottom: 40px;
+}
+
+.mainarticle_information--title{
+    white-space: pre-wrap;
+}
+
+.mainarticle_information .mainarticle_information--title{
+    margin-bottom: 20px;
+}
+
+.mainarticle_information p{
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.mainarticle_information .mainarticle_information--traffic{
+    margin-bottom: 20px;
+}
+
+.mainarticle_information--remark :nth-child(3){
+    margin-bottom: 20px;
+
+}
+
+.mainarticle_information--remark :nth-child(6){
+    margin-bottom: 20px;
+
+}
+
+.mainarticle_information01{
+    display: block;
+}
+
+.mainarticle_information01 span{
+    margin-bottom: 10px;
+}
+
+.mainarticle_information01 P{
+    margin-left: 33px;
+}
+
+.mainarticle_information02{
+    display: block;
+}
+
+.mainarticle_information02 span{
+    margin-bottom: 10px;
+}
+
+
+.mainarticle_information02 P{
+    margin-left: 33px;
+}
+
+}
+
+@media screen and (max-width:375px){
+
+.mainarticle_information p{
+    white-space:pre-line;
+}
+
+.mainarticle_information01 P{
+    margin-left: 27px;
+}
+
+.mainarticle_information02 P{
+    margin-left: 27px;
+}
+
+.mainarticle_information--remark{
+    margin-left: 27px;
+}
+
+.mainarticle_informationresport{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+}
